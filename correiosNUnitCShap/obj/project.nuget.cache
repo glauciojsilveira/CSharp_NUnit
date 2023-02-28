@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zx75yPeP4Ib0GynzG25YMqHfFkTLQEENmCs4lu3oZ482mAVYInoE7aDKgQ/NuK0Jcqx3ToywCZPAWtpAPAq/Kg==",
+  "dgSpecHash": "ojvsz9vb3IG5I4yQthq/xieV1K+2G8bnRsZBIj3sj+nt5y9b8l6y9vOrmnvM7jrWhmmTVP7SMObhrV89pF8e7g==",
   "success": true,
-  "projectFilePath": "C:\\TesteSiteCorreios\\correiosNUnitCShap\\correios.csproj",
+  "projectFilePath": "C:\\TesteSiteCorreios\\CSharp_NUnit\\correiosNUnitCShap\\correios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\glauc\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\glauc\\.nuget\\packages\\dynamitey\\2.0.9.136\\dynamitey.2.0.9.136.nupkg.sha512",

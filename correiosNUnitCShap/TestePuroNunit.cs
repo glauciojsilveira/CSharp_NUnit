@@ -27,7 +27,7 @@ namespace correios
             Thread.Sleep(2000);
             driver.FindElement(By.Id("btn_nbusca")).Click();
             Thread.Sleep(2000);
-            driver.Quit();
+            //driver.Quit();
 
 
          }
@@ -46,7 +46,7 @@ namespace correios
             Thread.Sleep(1000);
             driver.FindElement(By.XPath("//*[@id='resultado-DNEC']/tbody/tr/td[3]")).Text.Contains("São Paulo/SP");
             Thread.Sleep(2000);
-            driver.Quit();
+            //driver.Quit();
         }
 
         [Test]
@@ -61,7 +61,7 @@ namespace correios
             Thread.Sleep(2000);
             driver.FindElement(By.XPath("/html/body/main/div[1]/form/div[2]/div[2]/div[2]/div[3]")).Text.Contains("Preencha o campo captcha");
             Thread.Sleep(2000);
-            driver.Quit();
+            //driver.Quit();
 
         }
 

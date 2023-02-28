@@ -32,7 +32,15 @@ namespace correios
         [TearDown]
         public void FinalDoTeste()
         {
+            try
+            {
+                driver.Quit();
+            }
+            catch (Exception)
+            {
 
+                
+            }
 
         }
 
