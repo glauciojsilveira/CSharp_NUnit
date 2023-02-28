@@ -4,6 +4,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
 using NUnit.Framework.Interfaces;
+using System;
 
 
 namespace correios
@@ -23,7 +24,7 @@ namespace correios
             driver = new ChromeDriver();
             driver.Navigate().GoToUrl("http://www.buscacep.correios.com.br");
             driver.Manage().Window.Maximize();
-            Thread.Sleep(2000);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(15);
 
         }
 
